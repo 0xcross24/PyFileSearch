@@ -1,10 +1,10 @@
 import os;
 import time;
 
-directory = 'C:\Users\Danny';
+directory = raw_input('Enter your directory: ');
 search_file = raw_input("\nEnter the file name: ");
 
-def traverse(search_file):
+def traverse(search_file, directory):
 	count = 0;
 	found = False;
 	print "\n";
@@ -28,6 +28,6 @@ def traverse(search_file):
 
 	
 
-traverse(search_file);
+traverse(search_file, directory);
 
 
